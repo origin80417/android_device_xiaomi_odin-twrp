@@ -22,4 +22,5 @@ ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
 TARGET_OTA_ASSERT_DEVICE := odin
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/odin
 TARGET_KERNEL_CONFIG := vendor/odin-qgki_defconfig

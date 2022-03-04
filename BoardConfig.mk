@@ -8,9 +8,9 @@
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Inherit proprietary blobs
--include vendor/xiaomi/odinx/BoardConfigVendor.mk
+-include vendor/xiaomi/odin/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/odinx
+DEVICE_PATH := device/xiaomi/odin
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := odin
